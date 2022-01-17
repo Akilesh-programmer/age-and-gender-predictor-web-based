@@ -26,7 +26,7 @@ def greet():
 def age_gender_guess(some_name):
     age = get_age(some_name)
     gender = get_gender(some_name)
-    return f"<h1>Hey {some_name},</h1> \
+    return f"<h1>Hey {some_name.title()},</h1> \
         <h2>I think you are {gender},</h2> \
         <h3>And maybe {age} years old."
 
